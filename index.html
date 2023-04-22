@@ -4,16 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <title>..:: jupiter ::..</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>..:: Gamificando ::..</title>
 </head>
 <body>
-    <div id="menu">
+    <!-- Aula 15/04/2023 -->
+    <!-- Início Menu Responsivo -->
     <header id="header">
-    <a id="logo" href="index.html"><img src="./img/jupiter-chamada_1.jpg"></a>
+            <a id="logo" href="index.html"><img src="./img/multiverso-img.jpg" alt=""></a>
+            <nav id="nav">
+                <button  aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></button>
+                <span id="hamburger"></span>
+              </button>
+              <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="index.html">home</a></li>
+                <li><a class="linkMenu" href="produtos.html">produtos</a></li>
+                <li><a class="linkMenu" href="streaming.html">streaming</a></li>
+                <li><a class="linkMenu" href="contato.html">contato</div></a></li>
+                </ul>
+             </nav>
+        </header>
+    <!-- Fim menu responsivo-->
 
-    </header>
-</div>
-    
+    <!-- Início corousel página principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 1.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 2.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 6.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/multiverso-img.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 5.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 3.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img 
+                src="./img/carousel 4.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+        </div>    
+        <!-- Alt + Shift + Seta para baixo, copia contéudo -->
+            <!-- Início controle carousel -->
+            <button
+                class="carousel-control-prev"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>                
+            </button>
+            <button
+                class="carousel-control-next"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>                
+            </button>
+    </div>    
 </body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js">
+
+</script>
+
 </html>
