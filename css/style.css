@@ -115,9 +115,9 @@ body, ul{
         gap: 0.5rem;
     }
     #hamburger {
-        border-top: 2px solid; /* Melhorando o hamburger >> Espessura de cada linha */
-        width: 25px; /*Melhorando o hamburger >> largura */
-        color: #8878d9;/* Alterando a cor do hamburger  */
+        border-top: 5px solid; /* Melhorando o hamburger >> Espessura de cada linha */
+        width: 35px; /*Melhorando o hamburger >> largura */
+        color: #0a090a;/* Alterando a cor do hamburger  */
     }
     #hamburger::after,
     #hamburger::before {
@@ -126,8 +126,8 @@ body, ul{
         width: 35px;/*Melhorando o hamburger >> Largura */
         height: 2px;
         background: currentColor;
-        margin-top: 4px; /*Melhorando o hamburgem>> Espaçamento entre o hamburger*/
-        transition: 0.6s;
+        margin-top: 5px; /*Melhorando o hamburgem>> Espaçamento entre o hamburger*/
+        transition: 0.4s;
         position: relative;
         border-top: 5px solid; /*Melhorando o hamburger >> espessura de cada */
     }
@@ -265,6 +265,17 @@ body, ul{
 .rodape {
   padding: 50px 50px 0;
 }
+.rodape .container #logo-rodape img {
+  height: 50%;
+  width: 50%;
+  padding-left: 10px;
+  transition: 10px;
+  display: block;
+}
+.rodape .container #logo-rodape img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 .rodape .info-contato p {
   margin: 0px;
 }
@@ -282,6 +293,14 @@ body, ul{
 .rodape .redes-sociais img {
   width: 45px;
   height: 40px;
+  padding-left: 00px;
+  transition: transform .3s;
+  border-radius: 120px;
+  margin-left: 00.5rem;
+}
+.rodape .redes-sociais img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 .rodape p.direitos {
   text-align: center;
